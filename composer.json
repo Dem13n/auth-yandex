@@ -1,0 +1,38 @@
+{
+  "name": "dem13n/auth-yandex",
+  "description": "Allow users to login with Yandex.",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.8",
+    "aego/oauth2-yandex": "^0.2.2"
+  },
+  "authors": [
+    {
+      "name": "Dem13n",
+      "email": "idem13n@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dem13n\\Auth\\Yandex\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Yandex Login",
+      "icon": {
+                "name": "fab fa-yandex",
+                "backgroundColor": "#FE1519",
+                "color": "#fff"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}

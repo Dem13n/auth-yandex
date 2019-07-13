@@ -1,0 +1,10 @@
+dem13n-auth-yandex:
+     admin:
+         yandex_settings:
+              title: Настройки входа через яндекс
+              app_id_label: ID Приложения
+              app_password_label: Пароль приложения
+              app_desc: Зарегистрировать свое приложение вы можете здесь <a>https://oauth.yandex.ru</a>
+              app_p:  Callback URL
+     forum:
+          login_with_yandex_button: Войти через Яндекс
